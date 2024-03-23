@@ -1,0 +1,340 @@
+*{
+    list-style: none;
+}
+
+body{
+    font-family: "Truculenta", sans-serif;
+}
+
+.ul-menu{
+    background-color:#333;
+    color: #ffffff;
+    overflow: hidden;
+    text-align:center; 
+}
+
+.li-menu{
+    float: left;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+
+.li-menu a:hover{
+    background-color: black;
+}
+
+.title-menu{
+    font-size: 40px; display: inline
+}
+
+.column{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.EditImages{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+
+.social{
+    width: 25px;
+    padding: 5px;
+}
+
+.left{
+    width: 20%;
+    float: left;
+}
+
+.right{
+    width: 75%;
+    float: left;
+}
+
+.row{
+    padding: 5px;
+}
+
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.main-bar{
+    background-color: grey;
+    display: block;
+    height: 20px;
+}
+
+.main-bar span{
+    background-color: rgb(1, 121, 121);
+    height: 20px;
+    display: block;
+    color: #ffffff;
+}
+
+.cPlusPlus{
+    width: 70%;
+    animation: cPlusPlus 2s;
+}
+
+.csharp{
+    width: 85%;
+    animation: csharp 2s;
+}
+
+.dot-net-framework{
+    width: 75%;
+    animation: dot-net-framework 2s;
+}
+
+.NET-Core{
+    width: 70%;
+    animation: NET-Core 2s;
+}
+
+.SQL{
+    width: 60%;
+    animation: SQL 2s;
+}
+
+.ADO-dot-NET{
+    width: 80%;
+    animation: ADO-dot-NET 2s;
+}
+
+.Entity-Framework{
+    width: 60%;
+    animation: Entity-Framework 2s;
+}
+
+.HTML5{
+    width: 60%;
+    animation: HTML5 2s;
+}
+
+.CSS3{
+    width: 60%;
+    animation: CSS3 2s;
+}
+
+.razor{
+    width: 70%;
+    animation: razor 2s;
+}
+
+.mvc{
+    width: 65%;
+    animation: mvc 2s;
+}
+
+.api{
+    width: 70%;
+    animation: api 2s;
+}
+
+.postman{
+    width: 70%;
+    animation: postman 2s;
+}
+
+.gihub{
+    width: 50%;
+    animation: gihub 2s;
+}
+
+@keyframes cPlusPlus{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 70%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes csharp{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 85%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes dot-net-framework{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 75%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes NET-Core{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 70%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes SQL{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 60%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes ADO-dot-NET{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 80%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes Entity-Framework{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 60%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes HTML5{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 60%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes CSS3{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 60%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes razor{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 70%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes mvc{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 65%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes api{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 70%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes postman{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 70%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+@keyframes gihub{
+    0%{
+        width: 0%;
+        background-color: rgb(18, 15, 187);
+    }
+    100%{
+        width: 50%;
+        background-color: rgb(102, 252, 194);
+    }
+}
+
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.linkeddin{
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 17px;
+}
+
+.project{
+    width: 400px;
+    float: left;
+    padding-left: 120px;  
+}
+
+.project img{
+    width: 280px;
+    height: 150px;
+}
+
+@media screen and (max-width:800px) {
+    .column{
+        width: 100%;
+    }  
+}
